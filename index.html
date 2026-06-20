@@ -505,7 +505,7 @@
             const targetTime = new Date(nepalTime);
             targetTime.setHours(17, 0, 0, 0);
 
-            if (nepalTime < targetTime) {
+            /*if (nepalTime < targetTime) {
                 const timeDiffMs = targetTime - nepalTime;
                 
                 const hours = Math.floor(timeDiffMs / 3600000);
@@ -519,7 +519,7 @@
 
                 alert(`Access Denied!\nThe exam will start exactly at 5:00 PM Nepal Time.\nPlease wait another ${countdownStr}.`);
                 return;
-            }
+            }*/
 
             if (course === "CMAT") {
                 examDurationSeconds = 90 * 60; 
